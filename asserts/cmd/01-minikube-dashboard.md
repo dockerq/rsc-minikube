@@ -1,4 +1,4 @@
-# dashboard subcommond of minikube
+# dashboard subcommand of minikube
 minikube will open default browser and navigate to Kubernetes UI when run `minikube dashboard`.
 Or just print url of Kubernetes UI if run `minikube dashboard --url`.
 
