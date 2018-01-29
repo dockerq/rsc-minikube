@@ -1,7 +1,7 @@
 # pkg/minikube/cluster
 Cluster pkg operates the VM and k8s cluster.It defines MachineConfig and Config which holds `MachineConfig` and `bootstrapper.KubernetesConfig`.
 
-Cluster has below inportant methods
+Cluster has below important methods
 
 ## cluster.go
 ### StartHost

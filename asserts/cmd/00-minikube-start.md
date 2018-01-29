@@ -10,7 +10,7 @@ cluster pkg provides functions to interact with the cluster:
 - get driver ip
 - ...
 
-below functions are inportant:
+below functions are important:
 - createHost
 - GetVMHostIP
 - CreateSSHShell
