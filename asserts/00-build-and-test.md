@@ -2,7 +2,7 @@
 Read source code of [minikube](https://github.com/kubernetes/minikube)
 
 ## Build from source code
-First, you need go 1.8+ and set GOPATH and GOROOT correctlly.Then, clone code:
+First, you need go 1.8+ and set GOPATH and GOROOT correctly.Then, clone code:
 ```shell
 git clone https://github.com/kubernetes/minikube.git $GOPATH/src/k8s.io
 ```
@@ -22,7 +22,7 @@ There are three kinds of test:
 - Integration test: `make integration`, test across function or method all invoke path.
 - Conformance test: refer to [minikube conformance test](https://github.com/kubernetes/minikube/blob/master/docs/contributors/build_guide.md#conformance-tests).
 
-Below is output of compile:
+Below is sample output of compile:
 ```shell
 ➜  minikube git:(master) make
 docker run -w /go/src/k8s.io/minikube --user 501:20 -e IN_DOCKER=1 -v /Users/luwenquan/workspace/gowp/src/k8s.io/minikube:/go/src/k8s.io/minikube gcr.io/google_containers/kube-cross:v1.8.3-1 make out/localkube
